@@ -100,31 +100,6 @@ header {
   -webkit-text-fill-color: var(--color-text);
 }
 
-.tile[data-state='active'] {
-  border-color: #565758;
-  animation: pop 0.1s;
-}
-
-.tile[data-state='correct'] {
-  background-color: var(--color-correct);
-  border-color: var(--color-correct);
-}
-
-.tile[data-state='present'] {
-  background-color: var(--color-present);
-  border-color: var(--color-present);
-}
-
-.tile[data-state='absent'] {
-  background-color: var(--color-absent);
-  border-color: var(--color-absent);
-}
-
-/* Flip Animation */
-.tile.flip {
-  animation: flip 0.5s ease-in;
-}
-
 @keyframes flip {
   0% {
     transform: rotateX(0);
