@@ -94,6 +94,12 @@ header {
   border-color: #818384;
 }
 
+.tile:disabled {
+  color: var(--color-text);
+  opacity: 1;
+  -webkit-text-fill-color: var(--color-text);
+}
+
 .tile[data-state='active'] {
   border-color: #565758;
   animation: pop 0.1s;
