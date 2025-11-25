@@ -90,16 +90,6 @@ header {
   border-radius: 0;
 }
 
-.tile:focus {
-  border-color: #818384;
-}
-
-.tile:disabled {
-  color: var(--color-text);
-  opacity: 1;
-  -webkit-text-fill-color: var(--color-text);
-}
-
 @keyframes flip {
   0% {
     transform: rotateX(0);
